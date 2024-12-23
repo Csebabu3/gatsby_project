@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.text {
+  text-align: center;
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Categories .slick-slide {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Categories .slick-dots {
+  bottom: -30px;
+}
+
+.photo img {
+  display: none;
+}
